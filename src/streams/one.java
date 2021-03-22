@@ -34,5 +34,7 @@ public class one {
         // After JDK8
         List<Integer> l3 = l.stream().map(i -> i * 2).collect(Collectors.toList());
         System.out.println(l3);
+
+        // After
     }
 }
